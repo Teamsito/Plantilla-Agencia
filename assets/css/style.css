@@ -53,18 +53,18 @@ a:hover {
 
 p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: #9fa3a7;
   line-height: 22px;
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 85px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 50px;
 }
 
 h1,
@@ -83,11 +83,11 @@ p + p {
 .btn {
   line-height: 50px;
   min-width: 200px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   border: 0;
   border-radius: 50px;
-  color: #26272d;
+  color: #d6d7dd;
   background-color: #fff;
   padding: 0;
   transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -96,10 +96,6 @@ p + p {
     background-color 0.25s ease-in-out;
   -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
   -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-}
-
-.btn-border {
-  border: 1px solid #26272d;
 }
 
 .btn-fill {
@@ -663,7 +659,7 @@ body {
 .site-title {
   font-size: 18px;
   line-height: 26px;
-  color: #26272d;
+  color: #000000;
 }
 
 .site-title:hover {
@@ -672,6 +668,7 @@ body {
 
 .site-title span {
   font-weight: 700;
+  font-size: 25px;
 }
 
 .site-title a:hover {
@@ -691,7 +688,7 @@ body {
 .navbar-nav > li > a,
 .slicknav_nav > li > a {
   padding: 0;
-  font-size: 16px;
+  font-size: 22px;
   position: relative;
   color: #26272d;
   line-height: 26px;
@@ -830,13 +827,13 @@ body {
 .hero-text p {
   position: relative;
   margin: 45px 0 30px;
-  font-size: 20px;
+  font-size: 30px;
   color: #26272d;
 }
 
 .hero-text .btn {
   position: relative;
-  background-color: rgb(255 255 255 / 20%);
+  background-color: transparent;
 }
 
 .hero-text .btn:hover {
@@ -901,6 +898,7 @@ body {
 /* site-section */
 .site-section {
   padding: 100px 0 140px;
+  background: #f5f5f8;
 }
 
 .subheading-text {
@@ -929,7 +927,7 @@ body {
 /* Section: Features */
 .section-features h2 {
   padding-bottom: 40px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .section-features img {
