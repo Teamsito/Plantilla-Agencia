@@ -53,18 +53,18 @@ a:hover {
 
 p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: #9fa3a7;
   line-height: 22px;
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 85px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 50px;
 }
 
 h1,
@@ -83,11 +83,11 @@ p + p {
 .btn {
   line-height: 50px;
   min-width: 200px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   border: 0;
   border-radius: 50px;
-  color: #26272d;
+  color: #d6d7dd;
   background-color: #fff;
   padding: 0;
   transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -98,12 +98,8 @@ p + p {
   -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
-.btn-border {
-  border: 1px solid #26272d;
-}
-
 .btn-fill {
-  background-color: #267df4;
+  background-color: transparent;
   color: #fff;
 }
 
@@ -672,6 +668,7 @@ body {
 
 .site-title span {
   font-weight: 700;
+  font-size: 25px;
 }
 
 .site-title a:hover {
@@ -691,10 +688,11 @@ body {
 .navbar-nav > li > a,
 .slicknav_nav > li > a {
   padding: 0;
-  font-size: 16px;
+  font-size: 22px;
   position: relative;
-  color: #26272d;
+  color: #fff;
   line-height: 26px;
+  font-weight: 500;
 }
 
 .site-header-white .navbar-nav > li > a,
@@ -799,7 +797,7 @@ body {
 
 .overlay:before {
   content: '';
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(99 97 169 / 45%);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -825,18 +823,19 @@ body {
 .hero-text h1 {
   position: relative;
   margin: 0;
+  color: #fff;
 }
 
 .hero-text p {
   position: relative;
   margin: 45px 0 30px;
-  font-size: 20px;
-  color: #26272d;
+  font-size: 30px;
+  color: #fff;
 }
 
 .hero-text .btn {
   position: relative;
-  background-color: rgb(255 255 255 / 20%);
+  background-color: transparent;
 }
 
 .hero-text .btn:hover {
@@ -885,15 +884,15 @@ body {
 }
 
 .portfolio-hero {
-  background: url(../img/portfolio-hero.jpg) no-repeat center / cover;
+  background: #6361a9;
 }
 
 .blog-hero {
-  background: url(../img/blog-hero.jpg) no-repeat center / cover;
+  background: #6361a9;
 }
 
 .contact-hero {
-  background: url(../img/contact-hero.jpg) no-repeat center / cover;
+  background: #6361a9;
 }
 
 /* SITEMAIN
@@ -901,6 +900,7 @@ body {
 /* site-section */
 .site-section {
   padding: 100px 0 140px;
+  background: #e1e1ef;
 }
 
 .subheading-text {
@@ -929,7 +929,7 @@ body {
 /* Section: Features */
 .section-features h2 {
   padding-bottom: 40px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .section-features img {
@@ -1143,9 +1143,9 @@ body {
 
 .list-unstyled li a,
 .list-unstyled li p {
-  font-size: 16px;
+  font-size: 18px;
   color: #8c8f94;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .list-unstyled li a:hover,
@@ -1237,7 +1237,7 @@ a.facebook-bg:hover {
 }
 
 .portfolio-sorting li .active {
-  background-color: #6fc754;
+  background-color: #6361a9;
   color: #fff;
   box-shadow: none;
 }
@@ -1327,8 +1327,8 @@ a.facebook-bg:hover {
 .blog-post .post-title {
   padding: 0;
   margin: 0;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -1530,18 +1530,19 @@ a.facebook-bg:hover {
  */
 /* Section: Contact-us */
 .section-contact-us h2 {
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   padding-bottom: 50px;
   letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .section-contact-us .form-group label,
 .contact-info h3 {
   margin: 0 0 10px 20px;
   color: #26292c;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .section-contact-us textarea {
@@ -1562,8 +1563,8 @@ a.facebook-bg:hover {
 }
 
 .contact-info .list-unstyled li {
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 500;
   color: #8c8f94;
 }
 
