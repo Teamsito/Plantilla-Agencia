@@ -83,7 +83,7 @@ p + p {
 .btn {
   line-height: 50px;
   min-width: 200px;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 600;
   border: 0;
   border-radius: 50px;
@@ -899,7 +899,7 @@ body {
 ================================================== */
 /* site-section */
 .site-section {
-  padding: 100px 0 140px;
+  padding: 100px 0 70px;
   background: #e1e1ef;
 }
 
@@ -1296,7 +1296,7 @@ a.facebook-bg:hover {
 .project-info .btn {
   margin-top: 25px;
   line-height: 40px;
-  min-width: 120px;
+  min-width: 150px;
 }
 
 .project-info .social-links {
